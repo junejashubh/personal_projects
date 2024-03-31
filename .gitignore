@@ -1,1 +1,4 @@
 *.txt
+*.DS_Store
+webscraping/selenium/chromedriver-mac-x64/chromedriver
+webscraping/selenium/chromedriver-mac-x64/LICENSE.chromedriver
