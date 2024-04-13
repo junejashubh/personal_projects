@@ -15,6 +15,3 @@ for i in symbol_list:
 # Fetch historical stock price data from inception to current date
     stock_data = yf.download(i, start="1900-01-01", end=datetime.today().strftime('%Y-%m-%d')).reset_index()
     stock_data.to_csv(os.path.join(r'inputs/input_for_modeling',f'{symbol_to_company[i]}.csv'),index=False)
-
-
-
