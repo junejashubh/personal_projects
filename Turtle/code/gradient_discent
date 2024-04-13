@@ -1,0 +1,46 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jun 15 21:32:30 2023
+
+@author: shubhamjuneja
+"""
+
+import turtle
+
+turtle.setpos(0,300)
+turtle.setpos(0,0)
+turtle.setpos(-300,0)
+turtle.setpos(300,0)
+turtle.penup()
+#turtle.goto(-150,225)
+#turtle.pendown()
+
+
+def obj_function(x):
+     return (x**2-2*x+1)
+
+def plot_obj_function():
+    for i in range(-15,16):
+        turtle.goto(i*10,obj_function(i))
+        turtle.pendown()
+        
+plot_obj_function()
+
+def cal_gradient(x,step,learning_rate):
+    x_new = x - learning_rate *((-obj_function(x)+obj_function(x+learning_rate))/learning_rate)
+    return x_new
+
+
+turtle.penup()
+turtle.goto(-15*10,obj_function(-15))
+turtle.pendown()
+
+starting_point = 20
+
+for i in range(100000):
+    starting_point = cal_gradient(starting_point,0.0001,0.95)
+    print(starting_point,obj_function(starting_point))
+    turtle.goto(starting_point*10,obj_function(starting_point))
+    
+        
