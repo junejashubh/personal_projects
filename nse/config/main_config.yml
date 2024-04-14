@@ -1,0 +1,5 @@
+selenium_reqs: 
+  driver_path: "/Users/shubhamjuneja/vscode/personal_projects/webscraping/selenium/chromedriver-mac-x64/chromedriver"
+  website_path: "https://www.nseindia.com/get-quotes/equity?symbol=DIVISLAB"
+  saving_outputs: '../outputs'
+  downloaded_file_location: '/Users/shubhamjuneja/Downloads'
