@@ -19,3 +19,7 @@ def do_yfinance_data_pull(config):
 
     shutil.rmtree(config['modeling_reqs']['m_input_path'])
     shutil.copytree(config['yfinance_reqs']['op_path'], config['modeling_reqs']['m_input_path'])
+
+if __name__ == "__main__":
+    config = read_config('../config/main_config.yml')
+    do_yfinance_data_pull(config)

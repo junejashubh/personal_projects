@@ -33,4 +33,6 @@ def get_nifty_symbols(config):
 
     shutil.copy2(config['selenium_reqs']['op_path_n_name'], config['yfinance_reqs']['input_path'])
 
-
+if __name__ == "__main__":
+    config = read_config('../config/main_config.yml')
+    get_nifty_symbols(config)
