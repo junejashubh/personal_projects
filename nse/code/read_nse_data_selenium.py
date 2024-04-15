@@ -13,7 +13,7 @@ driver_path = config['selenium_reqs']['driver_path']
 download_dir = config['selenium_reqs']['downloaded_file_location']
 
 before_download = os.listdir(download_dir)
-driver = webdriver.Chrome(executable_path=driver_path)
+driver = webdriver.Firefox(executable_path=driver_path)
 driver.get(website)
 # button = driver.find_element_by_xpath('//span[@id="dwldcsv"]')
 # button.click()

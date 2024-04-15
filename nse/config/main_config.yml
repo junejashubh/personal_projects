@@ -1,5 +1,5 @@
 selenium_reqs: 
-  driver_path: "/Users/shubhamjuneja/vscode/personal_projects/webscraping/selenium/chromedriver-mac-x64/chromedriver"
-  website_path: "https://www.nseindia.com/get-quotes/equity?symbol=DIVISLAB"
+  driver_path: "/Users/shubhamjuneja/vscode/personal_projects/webscraping/selenium/mozila_driver/geckodriver"
+  website_path: "https://www.nseindia.com/market-data/live-equity-market?symbol=NIFTY%2050"
   saving_outputs: '../outputs'
   downloaded_file_location: '/Users/shubhamjuneja/Downloads'

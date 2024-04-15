@@ -1,0 +1,55 @@
+1713207652044	geckodriver	INFO	Listening on 127.0.0.1:58609
+1713207947914	geckodriver	INFO	Listening on 127.0.0.1:59891
+1713207948939	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/vs/23byps5d0lsbyw7qkk5p3f5c0000gn/T/rust_mozprofilevSOVqT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713207971478	Marionette	INFO	Marionette enabled
+1713207971968	Marionette	INFO	Listening on port 59906
+1713207972112	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://code.highcharts.com/stock/highstock.js, line 8: Error: Highcharts error #16: www.highcharts.com/errors/16/
+JavaScript error: https://code.highcharts.com/stock/highstock.js, line 8: Error: Highcharts error #16: www.highcharts.com/errors/16/
+JavaScript warning: https://www.nseindia.com/dist/js/static/public/assets/js/common.js, line 4169: unreachable code after return statement
+JavaScript warning: https://www.nseindia.com/dist/js/static/public/assets/js/common.js, line 4186: unreachable code after return statement
+JavaScript warning: https://www.nseindia.com/Ft1BEc/jS/R3/oa1p/XHYOApWC1A/GaS1pw2VrSD9/JRJeM1UD/eR4cU/Qh6ES8, line 1: unreachable code after return statement
+JavaScript warning: https://www.nseindia.com/Ft1BEc/jS/R3/oa1p/XHYOApWC1A/GaS1pw2VrSD9/JRJeM1UD/eR4cU/Qh6ES8, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.nseindia.com/Ft1BEc/jS/R3/oa1p/XHYOApWC1A/GaS1pw2VrSD9/JRJeM1UD/eR4cU/Qh6ES8, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.nseindia.com/Ft1BEc/jS/R3/oa1p/XHYOApWC1A/GaS1pw2VrSD9/JRJeM1UD/eR4cU/Qh6ES8, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1713208001517	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: resource://gre/modules/Troubleshoot.sys.mjs, line 739: WebGL context was lost.
+JavaScript warning: resource://gre/modules/Troubleshoot.sys.mjs, line 739: WebGL context was lost.
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3773: TypeError: this._windows[aWindow.__SSi] is undefined
+JavaScript warning: https://s.go-mpulse.net/boomerang/RF6LV-Y7HBS-S5S4P-HB5LE-V8XXL, line 10: Script terminated by timeout at:
+objectToString@https://s.go-mpulse.net/boomerang/RF6LV-Y7HBS-S5S4P-HB5LE-V8XXL:10:6152
+setCookie@https://s.go-mpulse.net/boomerang/RF6LV-Y7HBS-S5S4P-HB5LE-V8XXL:10:6741
+updateCookie@https://s.go-mpulse.net/boomerang/RF6LV-Y7HBS-S5S4P-HB5LE-V8XXL:10:118775
+page_unload@https://s.go-mpulse.net/boomerang/RF6LV-Y7HBS-S5S4P-HB5LE-V8XXL:10:126117
+e@https://s.go-mpulse.net/boomerang/RF6LV-Y7HBS-S5S4P-HB5LE-V8XXL:10:21666
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-2VC139B3XV&l=dataLayer, line 589: Script terminated by timeout at:
+aa.mh@https://www.googletagmanager.com/gtag/js?id=G-2VC139B3XV&l=dataLayer:589:89
+get@https://www.googletagmanager.com/gtag/js?id=G-2VC139B3XV&l=dataLayer:587:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-2VC139B3XV&l=dataLayer:587:87
+aa.tk/c/<@https://www.googletagmanager.com/gtag/js?id=G-2VC139B3XV&l=dataLayer:587:412
+
+1713208036678	Marionette	INFO	Stopped listening on port 59906
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1713208069580	geckodriver	INFO	Listening on 127.0.0.1:60707
+1713208070604	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/vs/23byps5d0lsbyw7qkk5p3f5c0000gn/T/rust_mozprofiler6aNtd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1713208071113	Marionette	INFO	Marionette enabled
+1713208071369	Marionette	INFO	Listening on port 60722
+1713208071501	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.nseindia.com/dist/js/static/public/assets/js/common.js, line 4169: unreachable code after return statement
+JavaScript warning: https://www.nseindia.com/dist/js/static/public/assets/js/common.js, line 4186: unreachable code after return statement
+JavaScript warning: https://www.nseindia.com/Ft1BEc/jS/R3/oa1p/XHYOApWC1A/GaS1pw2VrSD9/JRJeM1UD/eR4cU/Qh6ES8, line 1: unreachable code after return statement
+JavaScript warning: https://www.nseindia.com/Ft1BEc/jS/R3/oa1p/XHYOApWC1A/GaS1pw2VrSD9/JRJeM1UD/eR4cU/Qh6ES8, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.nseindia.com/Ft1BEc/jS/R3/oa1p/XHYOApWC1A/GaS1pw2VrSD9/JRJeM1UD/eR4cU/Qh6ES8, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.nseindia.com/Ft1BEc/jS/R3/oa1p/XHYOApWC1A/GaS1pw2VrSD9/JRJeM1UD/eR4cU/Qh6ES8, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1713208101493	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3773: TypeError: this._windows[aWindow.__SSi] is undefined
+1713213706522	Marionette	INFO	Stopped listening on port 60722
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

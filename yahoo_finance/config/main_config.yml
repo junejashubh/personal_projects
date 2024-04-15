@@ -1,0 +1,16 @@
+inputs: '../inputs/'
+outputs: '../outputs/'
+
+selenium_reqs: 
+  driver_path: "/Users/shubhamjuneja/vscode/personal_projects/webscraping/selenium/chromedriver-mac-x64/chromedriver"
+  website_path: "https://finance.yahoo.com"
+  saving_outputs: '{outputs}output_from_webscrape/'
+  downloaded_file_location: '/Users/shubhamjuneja/Downloads'
+  op_path_n_name: '{saving_outputs}company_to_symbol_mapping.csv'
+
+yfinance_reqs:
+  input_path: '{inputs}input_for_yfinance'
+  op_path: '{outputs}output_from_yfinance'
+
+modeling_reqs:
+  m_input_path: '{inputs}input_for_modeling'
