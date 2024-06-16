@@ -6,11 +6,20 @@ from datetime import datetime
 import shutil
 
 def do_yfinance_data_pull(config):
-    mappings = pd.read_csv(config['selenium_reqs']['op_path_n_name'])
-    mappings.dropna(inplace=True)
+    if config['selenium_reqs']['do_scape']:
+        mappings = pd.read_csv(config['selenium_reqs']['op_path_n_name'])
+        mappings.dropna(inplace=True)
 
-    symbol_to_company = dict(zip(mappings['Symbols'],mappings['Company_name']))
-    symbol_list = sorted(list(set(mappings['Symbols'])))
+        symbol_to_company = dict(zip(mappings['Symbols'],mappings['Company_name']))
+        symbol_list = sorted(list(set(mappings['Symbols'])))
+    else:
+        mappings = pd.read_csv(config['yfinance_reqs']['nse_file_name'])
+        mappings.dropna(inplace=True)
+        mappings['Company_name'] = mappings['Symbols']
+        mappings['Symbols'] = mappings['Symbols'] +'.NS'
+
+        symbol_to_company = dict(zip(mappings['Symbols'][1:],mappings['Company_name'][1:]))
+        symbol_list = sorted(list(set(mappings['Symbols'][1:])))
 
     for i in symbol_list:
     # Fetch historical stock price data from inception to current date
