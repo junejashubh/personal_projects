@@ -1,6 +1,7 @@
 *.txt
 *.DS_Store
 *.csv
+*.pdf
 webscraping/selenium/chromedriver-mac-x64*
 webscraping/selenium/chromedriver-mac-x64/LICENSE.chromedriver
 __pycache__
