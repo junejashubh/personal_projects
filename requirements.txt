@@ -2,3 +2,4 @@ flask
 numpy
 pandas
 requests
+functions-framework==3.1.0
